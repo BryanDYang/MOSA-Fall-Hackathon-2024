@@ -10,7 +10,7 @@ You are free to use whatever language(s) for the MOSA Fall Hackathon 2024 Projec
 **Project Summary**
 
 Please provide a short (one paragraph) summary of your project. Consider this your elevator pitch.
-Include the link to your Devpost project page here: (Paste finalized Devpost site)
+Include the link to your Devpost project page here: (To be added: finalized Devpost site)
 
 **Authors**
 
