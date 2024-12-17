@@ -14,10 +14,10 @@ Include the link to your Devpost project page here: (To be added: finalized Devp
 
 **Authors**
 
-- Name - Devpost ID – Penn email - [GitHub](https://github.com/username)
-- Name - Devpost ID – Penn email - [GitHub](https://github.com/username)
-- Name - Devpost ID – Penn email - [GitHub](https://github.com/username)
-- Name - Devpost ID – Penn email - [GitHub](https://github.com/username)
+- Bryan Yang - bryanya – bryanya@seas.upenn.edu - [GitHub](https://github.com/BryanDYang)
+- Moustafa Amer - Devpost ID – moamer@seas.upenn.edu - [GitHub](https://github.com/MostafaAmer2200)
+- Bashir Nayeem - Devpost ID – bnayeem@seas.upenn.edu - [GitHub](https://github.com/bashirnay)
+- Vache Darbinyan - Devpost ID – vachepbh@seas.upenn.edu - [GitHub](https://github.com/username)
 
 ## **Usage**
 This section walks a prospective user through the process of installing and running the project on their local machine. 
