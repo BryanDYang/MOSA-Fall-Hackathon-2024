@@ -1,0 +1,62 @@
+project-root/
+│
+├── .env                     # Environment variables (API keys, DB connection strings)
+├── README.md                # Project description and usage instructions
+├── requirements.txt         # List of Python dependencies
+├── venv/                    # Virtual environment (if not using a global env)
+│
+├── data/                    # Raw and processed datasets
+│   ├── raw/                 # Raw data files (e.g., ESG data, financial tickers)
+│   └── processed/           # Processed data ready for database upload
+│
+├── db/                      # Database-related scripts and configurations
+│   ├── migrations/          # Database migration files
+│   └── schema.sql           # SQL file defining database schema
+│
+├── src/                     # Source code
+│   ├── __init__.py          # Makes src a package
+│   ├── api/                 # API integration scripts
+│   │   ├── __init__.py
+│   │   └── osi_api.py       # Handles Open Sustainability Index API calls
+│   │   └── financial_api.py # Handles financial API calls (e.g., Yahoo Finance)
+│   ├── db/                  # Database interaction scripts
+│   │   ├── __init__.py
+│   │   └── db_operations.py # Handles database queries and data uploads
+│   └── utils/               # Helper functions (e.g., logging, fuzzy matching)
+│       ├── __init__.py
+│       └── helpers.py
+│
+├── notebooks/               # Jupyter notebooks for data exploration
+│   ├── prototype.ipynb      # Example notebook
+│
+├── scripts/                 # Command-line scripts for automation
+│   ├── download_data.py     # Script to fetch ESG and financial data
+│   └── load_to_db.py        # Script to load data into the database
+│
+└── tests/                   # Unit and integration tests
+    ├── test_api.py          # Tests for API integrations
+    ├── test_db.py           # Tests for database operations
+    └── test_utils.py        # Tests for utility functions
+
+
+After the data handling (APIs, databases, and analysis)
+==============================================================================
+├── backend/                  # Backend server code
+│   ├── app.py                # Main Flask/FastAPI server script
+│   ├── requirements.txt      # Backend dependencies
+│   ├── routes/               # API route handlers
+│   │   ├── __init__.py
+│   │   ├── esg_routes.py     # Routes for ESG-related data
+│   │   ├── finance_routes.py # Routes for financial data
+│   └── utils/                # Backend utilities
+│       ├── __init__.py
+│       └── db_utils.py       # Functions for database queries
+│
+├── frontend/                 # Frontend code (React/Angular/etc.)
+│   ├── public/               # Static assets (e.g., images, fonts)
+│   ├── src/                  # Source code for React/Angular
+│   │   ├── components/       # Reusable UI components
+│   │   ├── pages/            # Application pages (e.g., dashboard, details)
+│   │   ├── App.js            # Main React component
+│   │   └── index.js          # React entry point
+│   └── package.json          # Frontend dependencies
